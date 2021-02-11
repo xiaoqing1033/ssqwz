@@ -1,0 +1,47 @@
+ 
+ body
+ {
+     margin: 0;
+     padding: 0;
+     width: 1200px;
+     background:url('./zm.jpg');
+ }
+ .wrapper
+ {
+     align-self: center;
+     margin: 0 10%;
+ }
+ header .user_info
+ {
+     width: auto;
+     height: 25px;
+     background: tan;
+ }
+ header .logsaerch
+ {
+    width: auto;
+    height: 90px; 
+    background: skyblue;
+     
+ }
+ header .logsaerch input
+ {
+     width: 200px;
+     height: 26px;
+    margin-left: 600px;
+    margin-right: 15px;
+   
+  
+ }
+
+ header .nav
+
+ {
+    text-align: center;
+     background: springgreen;
+
+ }
+ header .nav a
+ {
+     margin: 0 30px;
+ }

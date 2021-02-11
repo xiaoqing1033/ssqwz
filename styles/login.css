@@ -1,0 +1,56 @@
+body
+{
+    background: url('./zm.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#login_box{
+    width: 30%;
+    height: auto;
+    background: #00000060;
+    margin: 0 auto;
+    margin-top: 15%;
+    text-align: center;
+    border-style:solid;
+    padding: 20px 50px;
+}
+#login_box h1
+{
+   font-size: 32px;
+   color: rgb(250, 246, 246);
+}
+#login_box.form
+{
+   margin-top: 30px;
+}
+.item{
+    margin-top: 15px;
+}
+#login_box .form .item input
+{
+    width: 165px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-bottom:2px solid #fff;
+    padding: 5px 10px;
+    background: #ffffff00;
+    color:#fff;
+}
+#login_box button
+{   
+    border: 0; 
+    margin-top: 15px;
+    width: 180px;
+    height:30px;
+    font-size: 20px;
+    font-weight: 500;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    border-radius: 15px;
+    
+}
+i
+{
+    font-size: 18px;
+    color: snow;
+}

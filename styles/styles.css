@@ -1,0 +1,107 @@
+
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+/* 表盘 */
+
+.clock {
+    width: 200px;
+    height: 200px;
+    margin: 30px auto;
+    border-radius: 100px;
+    background-color: #292a38;
+    position: relative;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-top: -5px;
+    margin-left: -5px;
+}
+/* 刻度 */
+
+.line-demo {
+    position: absolute;
+    width: 20px;
+    height: 10px;
+    background: red;
+    left: 50%;
+    top: 50%;
+    transform-origin: left center;
+    transform: rotate(-30deg) translate(75px, -5px);
+}
+
+.hour li {
+    position: absolute;
+    width: 10px;
+    height: 6px;
+    background: white;
+    left: 50%;
+    top: 50%;
+    transform-origin: left center;
+}
+
+.min li {
+    position: absolute;
+    width: 5px;
+    height: 2px;
+    background: white;
+    left: 50%;
+    top: 50%;
+    transform-origin: left center;
+}
+
+.numbers li {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -50%);
+    font-family: 'Microsoft Yahei';
+    font-size: 15px;
+    color: #fff;
+}
+/* 指针 */
+
+.p-hour {
+    position: absolute;
+    width: 45px;
+    height: 3px;
+    top: 50%;
+    left: 50%;
+    transform-origin: left center;
+    background: #fff;
+    margin-top: -2px;
+}
+
+.p-min {
+    position: absolute;
+    width: 60px;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    transform-origin: left center;
+    background: #fff;
+    margin-top: -2px;
+}
+
+.p-sec {
+    position: absolute;
+    width: 80px;
+    height: 1px;
+    top: 50%;
+    left: 50%;
+    transform-origin: left center;
+    background: #fff;
+    margin-top: -2px;
+}
